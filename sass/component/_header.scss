@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #ececec;
+}
+.header__container, .header__nav, .contact {
+    display: flex;
+}
+.nav, .contact {
+    list-style: none;
+    text-decoration: none;
+    color: currentColor;
+}
+.header .nav__link, .header .contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
